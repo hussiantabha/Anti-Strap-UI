@@ -1,3 +1,5 @@
+@import "./components/avatar.css";
+@import "./components/alerts.css";
 body, p,h2{
     margin: 0px;
     padding: 0px;
@@ -136,79 +138,4 @@ a{
 .display-title{
     margin-bottom: 1rem;
 }
-/* Avatar */
-.avatar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.avatar-sm{
-    width: 3rem;
-    height: 3rem;
-    border-radius:100% ;
-    margin-right: 2rem;
-}
-.avatar-md{
-    width: 6rem;
-    height: 6rem;
-    border-radius:100% ;
-    margin-right: 2rem;
-}
-.avatar-bg{
-    width: 10rem;
-    height: 10rem;
-    border-radius: 100%;
-}
 
-/* alerts */
-.alert-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.alert{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 0px solid black;
-    width: 350px;
-    margin: 0.75rem 0;
-    border-radius: 0.25rem;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    padding: 1rem 1rem;
-}
-.alert-primary{
-    background-color: #CCE5FF;
-    color: #0064B8;
-}
-.alert-secondary{
-    background-color: #E2E3E5;
-    color: #383D41;
-}
-.alert-success{
-    background-color: #D4EDDA;
-    color:#15572A;
-}
-.alert-danger{
-    background-color: #F8D7DA;
-    color: #721C24;
-}
-.alert-warning{
-    background-color: #FFF3CD;
-    color: #856404;
-}
-.alert-info{
-    background-color: #D1ECF1;
-    color: #0C548F;
-}
-.alert-light{
-    background-color: #FEFEFE;
-    color:#818192;
-}
-.alert-dark{
-    background-color: #D6D8D9;
-    color: #1B1E21;
-}
