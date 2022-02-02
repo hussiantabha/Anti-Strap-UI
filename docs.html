@@ -22,11 +22,11 @@
           <div class="sidebar">
             <a href="#avatar" class="sidebar-links">Avatars</a>
             <a href="#alert" class="sidebar-links">Alerts</a>
-            <a href="#" class="sidebar-links">Badge</a>
-            <a href="#" class="sidebar-links">Cards</a>
+            <a href="#badges" class="sidebar-links">Badge</a>
+            <a href="#buttons" class="sidebar-links">Buttons</a>
             <a href="#" class="sidebar-links">Responsive Images</a>
           </div>
-          <div class="content">
+    <div class="content">
             <div class="display-code-content" id="avatar">
               <h2 class="display-title">Avatars</h2>
               <div class="avatar">
@@ -98,7 +98,80 @@
                     </iframe>
             </div>
           </div>
-          </div>    
+          <div class="display-code-content" id="buttons">
+              <h2>Primary Buttons</h2>
+              <div class="btn-container">
+                <button class="btn btn-primary">Click Here</button>
+                <button class="btn btn-second">Click Here</button>
+                <button class="btn btn-success">Click Here</button>
+                <button class="btn btn-danger">Click Here</button>
+                <button class="btn btn-warning">Click Here</button>
+                <button class="btn btn-dark">Click Here</button>
+                <button class="btn btn-link">Click Here</button>
+              </div>
+              <div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EClick%2520Here%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-second%2522%253EClick%2520Here%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253EClick%2520Here%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-danger%2522%253EClick%2520Here%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning%2522%253EClick%2520Here%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-dark%2522%253EClick%2520Here%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253EClick%2520Here%253C%252Fbutton%253E"
+                    style="width: 80%; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+              </div>
+          </div>
+          <div class="display-code-content">
+            <h2>Outline Buttons</h2>
+            <div class="btn-container">
+                <button class="btn btn-primary-outline">Click Here</button>
+                <button class="btn btn-second-outline">Click Here</button>
+                <button class="btn btn-success-outline">Click Here</button>
+                <button class="btn btn-danger-outline">Click Here</button>
+                <button class="btn btn-warning-outline">Click Here</button>
+                <button class="btn btn-dark-outline">Click Here</button>
+            </div>
+            <div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2522%253EClick%2520Here%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-second-outline%2522%253EClick%2520Here%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-success-outline%2522%253EClick%2520Here%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-danger-outline%2522%253EClick%2520Here%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning-outline%2522%253EClick%2520Here%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-dark-outline%2522%253EClick%2520Here%253C%252Fbutton%253E"
+                    style="width: 80%; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+          </div>
+          <div class="display-code-content">
+              <h2>Buttons with Icons</h2>
+              <div class="btn-container">
+                  <button class="btn btn-primary btn-icon">
+                    <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 18V16H8V14H10V12H12V14H14V16H12V18H10Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M6 2C4.34315 2 3 3.34315 3 5V19C3 20.6569 4.34315 22 6 22H18C19.6569 22 21 20.6569 21 19V9C21 5.13401 17.866 2 14 2H6ZM6 4H13V9H19V19C19 19.5523 18.5523 20 18 20H6C5.44772 20 5 19.5523 5 19V5C5 4.44772 5.44772 4 6 4ZM15 4.10002C16.6113 4.4271 17.9413 5.52906 18.584 7H15V4.10002Z" fill="currentColor" /></svg>
+                    Upload File
+                  </button>
+                  <button class="btn btn-primary-outline btn-icon">
+                    <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 11C7.44772 11 7 11.4477 7 12C7 12.5523 7.44772 13 8 13H15.9595C16.5118 13 16.9595 12.5523 16.9595 12C16.9595 11.4477 16.5118 11 15.9595 11H8Z" fill="currentColor" /><path d="M8.04053 15.0665C7.48824 15.0665 7.04053 15.5142 7.04053 16.0665C7.04053 16.6188 7.48824 17.0665 8.04053 17.0665H16C16.5523 17.0665 17 16.6188 17 16.0665C17 15.5142 16.5523 15.0665 16 15.0665H8.04053Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M5 3C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3H5ZM7 5H5L5 19H19V5H17V6C17 7.65685 15.6569 9 14 9H10C8.34315 9 7 7.65685 7 6V5ZM9 5V6C9 6.55228 9.44772 7 10 7H14C14.5523 7 15 6.55228 15 6V5H9Z" fill="currentColor" /></svg>
+                    Copy
+                  </button>
+              </div>
+              <div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-icon%2522%253E%250A%253Csvg%2520class%253D%2522icon%2522%2520width%253D%252224%2522%2520height%253D%252224%2522%2520viewBox%253D%25220%25200%252024%252024%2522%2520fill%253D%2522none%2522%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%253E%253Cpath%2520d%253D%2522M10%252018V16H8V14H10V12H12V14H14V16H12V18H10Z%2522%2520fill%253D%2522currentColor%2522%2520%252F%253E%253Cpath%2520fill-rule%253D%2522evenodd%2522%2520clip-rule%253D%2522evenodd%2522%2520d%253D%2522M6%25202C4.34315%25202%25203%25203.34315%25203%25205V19C3%252020.6569%25204.34315%252022%25206%252022H18C19.6569%252022%252021%252020.6569%252021%252019V9C21%25205.13401%252017.866%25202%252014%25202H6ZM6%25204H13V9H19V19C19%252019.5523%252018.5523%252020%252018%252020H6C5.44772%252020%25205%252019.5523%25205%252019V5C5%25204.44772%25205.44772%25204%25206%25204ZM15%25204.10002C16.6113%25204.4271%252017.9413%25205.52906%252018.584%25207H15V4.10002Z%2522%2520fill%253D%2522currentColor%2522%2520%252F%253E%253C%252Fsvg%253E%250AUpload%2520File%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2520btn-icon%2522%253E%250A%253Csvg%2520class%253D%2522icon%2522%2520width%253D%252224%2522%2520height%253D%252224%2522%2520viewBox%253D%25220%25200%252024%252024%2522%2520fill%253D%2522none%2522%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%253E%253Cpath%2520d%253D%2522M8%252011C7.44772%252011%25207%252011.4477%25207%252012C7%252012.5523%25207.44772%252013%25208%252013H15.9595C16.5118%252013%252016.9595%252012.5523%252016.9595%252012C16.9595%252011.4477%252016.5118%252011%252015.9595%252011H8Z%2522%2520fill%253D%2522currentColor%2522%2520%252F%253E%253Cpath%2520d%253D%2522M8.04053%252015.0665C7.48824%252015.0665%25207.04053%252015.5142%25207.04053%252016.0665C7.04053%252016.6188%25207.48824%252017.0665%25208.04053%252017.0665H16C16.5523%252017.0665%252017%252016.6188%252017%252016.0665C17%252015.5142%252016.5523%252015.0665%252016%252015.0665H8.04053Z%2522%2520fill%253D%2522currentColor%2522%2520%252F%253E%253Cpath%2520fill-rule%253D%2522evenodd%2522%2520clip-rule%253D%2522evenodd%2522%2520d%253D%2522M5%25203C3.89543%25203%25203%25203.89543%25203%25205V19C3%252020.1046%25203.89543%252021%25205%252021H19C20.1046%252021%252021%252020.1046%252021%252019V5C21%25203.89543%252020.1046%25203%252019%25203H5ZM7%25205H5L5%252019H19V5H17V6C17%25207.65685%252015.6569%25209%252014%25209H10C8.34315%25209%25207%25207.65685%25207%25206V5ZM9%25205V6C9%25206.55228%25209.44772%25207%252010%25207H14C14.5523%25207%252015%25206.55228%252015%25206V5H9Z%2522%2520fill%253D%2522currentColor%2522%2520%252F%253E%253C%252Fsvg%253E%250ACopy%250A%253C%252Fbutton%253E"
+                style="width: 80%; height: 595px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+              </div>
+          </div>
+          <div class="display-code-content">
+              <h2>Floating Button</h2>
+              <div class="btn-container">
+                  <button class="btn-primary floating-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 4.5V6.5H12V7.5H3C1.34315 7.5 0 8.84315 0 10.5V16.5C0 18.1569 1.34315 19.5 3 19.5H15C16.5731 19.5 17.8634 18.2892 17.9898 16.7487L24 17.5V9.5L17.9898 10.2513C17.8634 8.71078 16.5731 7.5 15 7.5H14V5.5C14 4.94772 13.5523 4.5 13 4.5H4ZM18 12.2656V14.7344L22 15.2344V11.7656L18 12.2656ZM16 10.5C16 9.94772 15.5523 9.5 15 9.5H3C2.44772 9.5 2 9.94772 2 10.5V16.5C2 17.0523 2.44772 17.5 3 17.5H15C15.5523 17.5 16 17.0523 16 16.5V10.5Z" fill="currentColor" /></svg>
+                  </button>
+              </div>
+              <div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-primary%2520floating-btn%2522%253E%250A%253Csvg%2520width%253D%252224%2522%2520height%253D%252224%2522%2520viewBox%253D%25220%25200%252024%252024%2522%2520fill%253D%2522none%2522%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%253E%253Cpath%2520fill-rule%253D%2522evenodd%2522%2520clip-rule%253D%2522evenodd%2522%2520d%253D%2522M4%25204.5V6.5H12V7.5H3C1.34315%25207.5%25200%25208.84315%25200%252010.5V16.5C0%252018.1569%25201.34315%252019.5%25203%252019.5H15C16.5731%252019.5%252017.8634%252018.2892%252017.9898%252016.7487L24%252017.5V9.5L17.9898%252010.2513C17.8634%25208.71078%252016.5731%25207.5%252015%25207.5H14V5.5C14%25204.94772%252013.5523%25204.5%252013%25204.5H4ZM18%252012.2656V14.7344L22%252015.2344V11.7656L18%252012.2656ZM16%252010.5C16%25209.94772%252015.5523%25209.5%252015%25209.5H3C2.44772%25209.5%25202%25209.94772%25202%252010.5V16.5C2%252017.0523%25202.44772%252017.5%25203%252017.5H15C15.5523%252017.5%252016%252017.0523%252016%252016.5V10.5Z%2522%2520fill%253D%2522currentColor%2522%2520%252F%253E%253C%252Fsvg%253E%250A%253C%252Fbutton%253E"
+                    style="width: 80%; height: 353px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+              </iframe>
+              </div>
+          </div>
+          <div>Added</div>
+    </div>    
       </div>
 </body>
 </html>
