@@ -1,5 +1,6 @@
 @import "./components/avatar.css";
 @import "./components/alerts.css";
+@import "./components/badges.css";
 body, p,h2{
     margin: 0px;
     padding: 0px;
@@ -136,6 +137,6 @@ a{
     margin-top: 2rem;
 }
 .display-title{
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
 }
 
