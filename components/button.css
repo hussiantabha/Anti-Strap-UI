@@ -1,13 +1,4 @@
-:root{
-    --primary: blueviolet;
-    --white: #fff;
-    --secondary: #155d9c;
-    --success: #198754;
-    --danger: #DC3545;
-    --warning: #FFC107;
-    --info: #0DCAF0;
-    --dark: #212529;
-}
+
 .btn-container{
     display: flex;
     justify-content: space-around;
@@ -21,6 +12,7 @@
     border: none;
     border-radius: 0.25rem;
     font-weight: 600;
+    cursor: pointer
     
 }
 .btn-primary{
