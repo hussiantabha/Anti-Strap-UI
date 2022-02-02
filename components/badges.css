@@ -1,0 +1,39 @@
+:root{
+    --primary: blueviolet;
+    --white: #fff;
+}
+.container-badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+.badges{
+    margin-right: 2rem;
+    position: relative;
+}
+.badge-icon{
+    width: 3rem;
+    height: 3rem;
+}
+.badge{
+    position: absolute;
+    top: -38%;
+    right: -39%;
+    background-color: var(--primary);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color: var(--white);
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+
+}
+.badge-text{
+    position: absolute;
+    top: -38%;
+    right: -39%;
+}
