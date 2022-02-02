@@ -1,6 +1,8 @@
 @import "./components/avatar.css";
 @import "./components/alerts.css";
 @import "./components/badges.css";
+@import "./components/button.css";
+
 body, p,h2{
     margin: 0px;
     padding: 0px;
@@ -24,6 +26,12 @@ a{
 :root{
     --primary: blueviolet;
     --white: #fff;
+    --secondary: #155d9c;
+    --success: #198754;
+    --danger: #DC3545;
+    --warning: #FFC107;
+    --info: #0DCAF0;
+    --dark: #212529;
 }
 /* Nav bar */
 .navbar{
@@ -63,7 +71,7 @@ a{
     justify-content: center;
     align-items: center;
 }
-.btn{
+.btn-hero{
     margin-top: 2rem;
     padding: 0.75rem 1.25rem;
     background-color: var(--primary);

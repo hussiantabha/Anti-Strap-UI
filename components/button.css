@@ -1,0 +1,109 @@
+:root{
+    --primary: blueviolet;
+    --white: #fff;
+    --secondary: #155d9c;
+    --success: #198754;
+    --danger: #DC3545;
+    --warning: #FFC107;
+    --info: #0DCAF0;
+    --dark: #212529;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    margin: 2rem 0;
+}
+.btn{
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    
+}
+.btn-primary{
+    background-color: var(--primary);
+    color: white;
+}
+.btn-second{
+    background-color: var(--secondary);
+    color: var(--white)
+}
+.btn-success{
+    background-color: var(--success);
+    color: var(--white)
+}
+.btn-danger{
+    background-color: var(--danger);
+    color: var(--white)
+}
+.btn-warning{
+    background-color: var(--warning);
+    color: white;
+}
+.btn-dark{
+    background-color: var(--dark);
+    color: white;
+}
+.btn-link{
+    background-color: var(--white);
+    color: var(--dark);
+    text-decoration: underline;
+}
+/* Outline */
+.btn-primary-outline{
+    border:1px solid  var(--primary);
+    background-color: var(--white);
+    color: var(--dark);
+}
+.btn-second-outline{
+    border:1px solid  var(--secondary);
+    background-color: var(--white);
+    color: var(--dark);
+}
+
+.btn-success-outline{
+    border:1px solid  var(--success);
+    background-color: var(--white);
+    color: var(--dark);
+}
+
+.btn-danger-outline{
+    border:1px solid  var(--danger);
+    background-color: var(--white);
+    color: var(--dark);
+}
+
+.btn-warning-outline{
+    border:1px solid  var(--warning);
+    background-color: var(--white);
+    color: var(--dark);
+}
+.btn-dark-outline{
+    border:1px solid  var(--dark);
+    background-color: var(--white);
+    color: var(--dark);
+}
+/* Icon */
+.btn-icon{
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.icon{
+    margin-right: 0.5rem;
+}
+/* Floating-btn */
+.floating-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    border: none;
+}
