@@ -2,6 +2,7 @@
 @import "./components/alerts.css";
 @import "./components/badges.css";
 @import "./components/button.css";
+@import "./components/card.css";
 
 body, p,h2{
     margin: 0px;
@@ -146,5 +147,23 @@ a{
 }
 .display-title{
     margin-bottom: 2.5rem;
+}
+.display-code-content-card{
+    border: 1px solid #dcdcdc;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.child-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inside-title{
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
 

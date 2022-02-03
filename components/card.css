@@ -1,0 +1,63 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 5rem;
+    flex-wrap: wrap;
+    margin-bottom: 10rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dcdcdc;
+    width: 320px;
+    padding-bottom: 1rem;
+    border-radius: 0.2  5rem;
+}
+.card-content{
+    padding: 0.75rem 1rem;
+}
+.card-title{
+    margin-bottom: 0.25rem;
+}
+.card-desc{
+    margin-top: 0.75rem;
+}
+.links{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+/* Card overlay */
+.card-img-text{
+    max-height: 324px;
+}
+.card-img{
+    position: relative;
+}
+.overlay-img{
+    position: absolute;
+    bottom: 7%;
+    color: white;
+}
+/* horizontal-card */
+.card-horizontal-content{
+    display: flex;
+}
+.card-horizontal{
+    height: 130px;
+}
+/* Badge card */
+.card-badge{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: blueviolet;
+    padding: 0.75rem 1rem;
+    border-radius: 0 0 0 1rem;
+    color: white;
+}
+.fa-heart{
+    font-size: 1rem;
+}
