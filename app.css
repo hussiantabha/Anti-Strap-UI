@@ -3,6 +3,7 @@
 @import "./components/badges.css";
 @import "./components/button.css";
 @import "./components/card.css";
+@import "./components/images.css";
 
 body, p,h2{
     margin: 0px;
