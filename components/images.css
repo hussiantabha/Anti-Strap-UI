@@ -1,0 +1,19 @@
+.img-container, .img-responsive-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img-width-container{
+    width: 500px;
+}
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+.img-rounded-container{
+    margin-top: 2rem;
+}
+.img-rounded{
+    border-radius: 50%;
+}
