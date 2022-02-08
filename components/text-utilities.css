@@ -1,0 +1,19 @@
+.heading-bg{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.heading-sm{
+    font-size: 1.5rem;
+}
+.gray-text{
+    color: var(--gray);
+}
+.txt-align-left{
+    text-align: left;
+}
+.txt-align-right{
+    text-align: right;
+}
+.txt-align-center{
+    text-align: center;
+}
