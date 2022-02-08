@@ -120,15 +120,17 @@ a {
   left: 0px;
   top: 8%;
   display: flex;
-  width: 17rem;
+  width: 14rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+  border: 1px solid brown;
 }
 .content {
   grid-area: content;
   border: 1px solid black;
+  width: 100%;
 }
 .links {
   display: flex;
@@ -148,10 +150,10 @@ a {
 .content {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  /* align-items: stretch; */
   padding: 1rem 2rem;
   margin-top: 2rem;
-  width: 100%;
+  max-width: fit-content;
 }
 /* Code display */
 .display-code-content {
