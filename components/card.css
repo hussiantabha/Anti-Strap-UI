@@ -1,10 +1,8 @@
 .card-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    row-gap: 5rem;
-    flex-wrap: wrap;
     margin-bottom: 10rem;
 }
 .card{
@@ -24,7 +22,7 @@
 .card-desc{
     margin-top: 0.75rem;
 }
-.links{
+.card-links{
     margin-top: 1rem;
     display: flex;
     justify-content: space-around;

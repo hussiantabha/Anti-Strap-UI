@@ -106,7 +106,7 @@ a{
 /* grid-docs */
 .grid{
     display: grid;
-    grid-template-columns: 20rem 1fr;
+    grid-template-columns: 25% 75%;
     grid-template-areas: "sidebar content";
 }
 .sidebar{
@@ -115,20 +115,30 @@ a{
     left: 0px;
     top: 8%;
     display: flex;
-    width: 20rem;
+    width: 17rem;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    box-sizing: border-box;
 }
 .content{
     grid-area: content;
     border: 1px solid black;
-    
+}
+.links{
+    display: flex;
+    flex-direction: column;
 }
 .sidebar-links{
     padding: 1rem 0; 
     font-weight: 600;
     font-size: 1.25rem;
+}
+.hamburger-icon{
+    visibility: hidden;
+}
+.x-icon{
+    visibility: hidden;
 }
 .content{
     display: flex;
@@ -136,6 +146,7 @@ a{
     align-items: stretch;
     padding: 1rem 2rem;
     margin-top: 2rem;
+    width: 100%;
 }
 /* Code display */
 .display-code-content{
@@ -158,14 +169,65 @@ a{
     justify-content: space-between;
     padding: 1rem 0;
     margin-top: 2rem;
+    width: 100%;
 }
 .child-card-container{
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
     align-items: center;
 }
 .inside-title{
     margin-bottom: 1.5rem;
     text-align: center;
 }
+.display-iframe-code{
+    align-self: stretch;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: "content";
 
+    }
+    .content{
+        grid-area: content;
+        /* width: 100%; */
+    }
+    .nav-link-container{
+        display: none;
+    }
+    .hamburger-icon{
+        visibility: visible;
+    }
+    .sidebar{
+        position: fixed;
+        left:  -100%;
+        top: 5rem;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--primary);
+        width: 40%;
+        text-align: center;
+        transition: 0.3s;
+        
+    }
+    .sidebar-active{
+        left: 0;
+        height: 100vh;
+        z-index: 1;
+        opacity: 0.95;
+    }
+    .x-icon{ 
+        position: fixed;
+        left: -100%;
+        font-size: 2rem;
+        transition: 0.3s;
+    }
+    .x-icon-active{
+        left: 90%;
+        top: 7%;
+    }
+}
