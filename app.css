@@ -5,6 +5,7 @@
 @import "./components/card.css";
 @import "./components/images.css";
 @import "./components/inputs.css";
+@import "./components/text-utilities.css";
 
 body, p,h2{
     margin: 0px;
@@ -35,6 +36,7 @@ a{
     --warning: #FFC107;
     --info: #0DCAF0;
     --dark: #212529;
+    --gray: #808080;
 }
 /* Nav bar */
 .navbar{
