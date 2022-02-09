@@ -1,0 +1,26 @@
+.modal-container {
+  display: none;
+}
+.btn-modal {
+  width: 8rem;
+  align-self: center;
+}
+.modal-container-active {
+  position: fixed;
+  max-width: 40%;
+  left: 60%;
+  top: 60%;
+  z-index: 1;
+  background-color: var(--light-gray);
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  border-radius: 0.25rem;
+}
+.modal-title,
+.modal-desc {
+  margin-bottom: 1rem;
+}
