@@ -6,6 +6,7 @@
 @import "./components/images.css";
 @import "./components/inputs.css";
 @import "./components/text-utilities.css";
+@import "./components/navbar.css";
 
 body,
 p,
@@ -40,24 +41,6 @@ a {
   --dark: #212529;
   --gray: #808080;
   --light-gray: #dcdcdc;
-}
-/* Nav bar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.75rem 1.25rem;
-  background-color: var(--primary);
-  color: var(--white);
-}
-.nav-link-container {
-  margin-right: 1rem;
-}
-.nav-link {
-  color: white;
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 0 0.75rem;
 }
 /* Hero section */
 .hero {
@@ -192,7 +175,7 @@ a {
   align-self: stretch;
   text-align: center;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .grid {
     display: grid;
     grid-template-columns: 100%;
