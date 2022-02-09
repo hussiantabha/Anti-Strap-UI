@@ -227,9 +227,3 @@ a {
     top: 7%;
   }
 }
-
-@media only screen and (max-width: 480px) {
-  .content {
-    max-width: fit-content;
-  }
-}
