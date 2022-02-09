@@ -109,6 +109,7 @@ a {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+  margin-top: 2rem;
 }
 .content {
   grid-area: content;
