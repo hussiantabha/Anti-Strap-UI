@@ -226,4 +226,26 @@ a {
     left: 90%;
     top: 7%;
   }
+  .navbar {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "content";
+  }
+  .content {
+    grid-area: content;
+  }
+  .container-badge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .badges {
+    margin: 1rem;
+  }
 }
