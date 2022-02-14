@@ -96,20 +96,20 @@ a {
   display: grid;
   grid-template-columns: 20% 80%;
   grid-template-areas: "sidebar content";
-  /* overflow: hidden; */
+  position: relative;
 }
 .sidebar {
   grid-area: sidebar;
   position: fixed;
-  left: 0px;
-  top: 8%;
+  top: 10%;
+  height: 100vh;
+  left: 0;
+  bottom: 0;
   display: flex;
   width: 14rem;
-  flex-direction: column;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
-  margin-top: 2rem;
 }
 .content {
   grid-area: content;
