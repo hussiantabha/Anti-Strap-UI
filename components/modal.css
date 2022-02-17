@@ -25,3 +25,21 @@
 .modal-desc {
   margin-bottom: 1rem;
 }
+@media only screen and (max-width: 480px) {
+  .modal-container-active {
+    position: fixed;
+    max-width: 40%;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    background-color: var(--light-gray);
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    border: 1px solid var(--light-gray);
+    border-radius: 0.25rem;
+  }
+}

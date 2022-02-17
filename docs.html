@@ -14,13 +14,16 @@
       </div>
       <div class="nav-link-container">
         <a href="index.html" class="nav-link">Home</a>
-        <a href="#" class="nav-link">Docs</a>
-        <a href="#" class="nav-link">Github</a>
+        <a href="docs.html" class="nav-link">Docs</a>
+        <a href="https://github.com/hussiantabha/Anti-Strap-UI" class="nav-link"
+          >Github</a
+        >
       </div>
       <i class="fa fa-bars hamburger-icon" id="hamburger-nav"></i>
     </nav>
     <div class="grid">
-      <div class="sidebar">
+      <section class="sidebar">
+        <a href="#get-started" class="sidebar-links">Get Started</a>
         <a href="#avatar" class="sidebar-links">Avatars</a>
         <a href="#alert" class="sidebar-links">Alerts</a>
         <a href="#badges" class="sidebar-links">Badges</a>
@@ -33,8 +36,26 @@
         <a href="#modal" class="sidebar-links">Modal</a>
         <a href="#rating" class="sidebar-links">Rating</a>
         <i class="far fa-window-close x-icon"></i>
-      </div>
+      </section>
       <div class="content">
+        <section class="display-code-content" id="get-started">
+          <h1 class="display-title">Get Started</h1>
+          <span>Copy this link and paste it in the head tag</span>
+          <div>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520href%253D%2522https%253A%252F%252Fanti-strap-ui.netlify.app%252Fapp.css%2522%2520rel%253D%2522stylesheet%2522%253E"
+              style="
+                width: 80%;
+                height: 205px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </section>
         <section class="display-code-content" id="avatar">
           <h2 class="display-title">Avatars</h2>
           <div class="avatar">
@@ -705,10 +726,9 @@
                 <a href="#" class="nav-link">Home</a>
                 <a href="#" class="nav-link">About Us</a>
                 <a href="#" class="nav-link">Products</a>
-                <i
-                  class="fa fa-bars hamburger-icon-display"
-                  id="hamburger-nav-display"
-                ></i>
+                <div class="hamburger-icon-display">
+                  <i class="fa fa-bars" id="hamburger-nav-display"></i>
+                </div>
               </div>
             </nav>
           </div>

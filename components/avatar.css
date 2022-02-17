@@ -1,24 +1,31 @@
 /* Avatar */
-.avatar{
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar-sm {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  margin-right: 2rem;
+}
+.avatar-md {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100%;
+  margin-right: 2rem;
+}
+.avatar-bg {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+}
+@media only screen and (max-width: 480px) {
+  .avatar {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    row-gap: 3rem;
+  }
 }
-.avatar-sm{
-    width: 3rem;
-    height: 3rem;
-    border-radius:100% ;
-    margin-right: 2rem;
-}
-.avatar-md{
-    width: 6rem;
-    height: 6rem;
-    border-radius:100% ;
-    margin-right: 2rem;
-}
-.avatar-bg{
-    width: 10rem;
-    height: 10rem;
-    border-radius: 100%;
-}
-
