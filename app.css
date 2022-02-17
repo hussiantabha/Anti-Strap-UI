@@ -102,7 +102,7 @@ a {
   grid-area: sidebar;
   position: fixed;
   top: 10%;
-  height: 100vh;
+  height: 100%;
   left: 0;
   bottom: 0;
   display: flex;
@@ -123,7 +123,7 @@ a {
 .sidebar-links {
   padding: 1rem 0;
   font-weight: 600;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 .hamburger-icon {
   visibility: hidden;
@@ -238,6 +238,9 @@ a {
   }
   .content {
     grid-area: content;
+    width: 100%;
+    padding: 0;
+    margin-left: 0.75rem;
   }
   .container-badge {
     display: flex;

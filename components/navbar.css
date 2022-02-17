@@ -21,14 +21,11 @@
 .display-nav {
   margin: 0 2rem;
 }
-#hamburger-nav-display {
-  visibility: hidden;
+.hamburger-icon-display {
+  display: none;
 }
 @media only screen and (max-width: 768px) {
-  #hamburger-nav-display {
-    visibility: visible;
-  }
-  .nav-link-container {
-    visibility: visible;
+  .hamburger-icon-display {
+    display: flex;
   }
 }
