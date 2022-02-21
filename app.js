@@ -22,13 +22,6 @@ xIcon.addEventListener("click", () => {
   xIcon.classList.toggle("x-icon-active");
   console.log(sb, xIcon);
 });
-
-// sidebarLink.addEventListener("click", () => {
-//   if (sb.classList.contains("sidebar-active") === true) {
-//     sb.classList.remove("sidebar-active");
-//     console.log("in");
-//   }
-// });
 let link = Object.values(sidebarLink);
 link.forEach((ele) => {
   ele.addEventListener("click", () => {
