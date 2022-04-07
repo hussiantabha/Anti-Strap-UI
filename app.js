@@ -6,6 +6,16 @@ let sidebarLink = document.getElementsByClassName("sidebar-links");
 let modalBtn = document.querySelector(".btn-modal");
 let modalContainer = document.querySelector(".modal-container");
 let modalClostBtn = document.querySelector(".modal-close-btn");
+let toastCloseBtn = document.querySelector(".x-toast");
+let toastContainer = document.querySelector(".toast-container-hide");
+let showToast = document.querySelector(".showToast");
+
+showToast.addEventListener("click", () => {
+  toastContainer.classList.toggle("toast-container");
+  setTimeout(() => {
+    toastContainer.classList.toggle("toast-container");
+  }, 5000);
+});
 modalBtn.addEventListener("click", () => {
   modalContainer.classList.toggle("modal-container-active");
 });

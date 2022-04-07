@@ -10,6 +10,7 @@
 @import "./components/modal.css";
 @import "./components/grid.css";
 @import "./components/list.css";
+@import "./components/toast.css";
 body,
 p,
 h2 {

@@ -1,0 +1,18 @@
+.toast-container-hide {
+  display: none;
+}
+.toast-container-relative {
+}
+.toast-container {
+  position: fixed;
+  bottom: 2rem;
+  left: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 24rem;
+}
