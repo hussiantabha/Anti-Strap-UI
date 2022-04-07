@@ -1,8 +1,6 @@
 .toast-container-hide {
   display: none;
 }
-.toast-container-relative {
-}
 .toast-container {
   position: fixed;
   bottom: 2rem;
