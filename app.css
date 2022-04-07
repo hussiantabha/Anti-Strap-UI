@@ -8,6 +8,8 @@
 @import "./components/text-utilities.css";
 @import "./components/navbar.css";
 @import "./components/modal.css";
+@import "./components/grid.css";
+@import "./components/list.css";
 body,
 p,
 h2 {
@@ -102,12 +104,12 @@ a {
   grid-area: sidebar;
   position: fixed;
   top: 6%;
-  height: 100%;
+  height: 100vh;
   left: 0;
   bottom: 0;
   display: flex;
   width: 14rem;
-  flex-flow: column wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -121,9 +123,9 @@ a {
   flex-direction: column;
 }
 .sidebar-links {
-  padding: 1rem 0;
+  padding: 0.75rem 0;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .hamburger-icon {
   visibility: hidden;
